@@ -10,11 +10,21 @@ var presentationsArray = [
         "voice": "./audio/presentation2.mp3"
     }
 ];
+let currentAudio = null;
 
-function playAudioPresentation(i){
-	var url = presentationsArray[i]["voice"];
-	new Audio(url).play();
-  }
+function playAudioPresentation(i) {
+    // Stop the currently playing audio if it exists
+    if (currentAudio !== null) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0; // Reset playback to the start
+    }
+
+    // Get the new audio URL and play it
+    var url = presentationsArray[i]["voice"];
+    currentAudio = new Audio(url);
+    currentAudio.play();
+}
+
 function displayPresentations(t){
 	$('#div4').html('');
 	var $title = $('<h1 class = "titleh2">Pick a presentation and learn how to spell it</h1>')
