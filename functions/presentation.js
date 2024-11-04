@@ -1,7 +1,7 @@
 var presentationsArray = [
     {
 		"image" : "./img/presentation1.png",
-        "name": "Hello, my name is ilhem mecherrgui.It’s nice to meet you. I have great experience as a biology technician at the Regional Hospital of Jandouba. Working for over 12 years is impressive! my job of doing important lab tests and helping doctors with accurate patient diagnoses is very important. It’s great that I have adapted to new lab tools and taught new technicians. Here are some tasks that match my experience as a biology technician: Running lab tests on blood and other samples. Keeping lab equipment clean and working properly. Recording test results and sharing them with doctors. Following safety rules to protect yourself and others. Teaching new staff how to do tests correctly. Using new lab technology and learning new methods. Thank you for your attention.",
+        "name": "Hello, my name is Ilhem mechergui.It’s nice to meet you. I have great experience as a biology technician at the Regional Hospital of Jandouba. Working for over 12 years is impressive! my job of doing important lab tests and helping doctors with accurate patient diagnoses is very important. It’s great that I have adapted to new lab tools and taught new technicians. Here are some tasks that match my experience as a biology technician: Running lab tests on blood and other samples. Keeping lab equipment clean and working properly. Recording test results and sharing them with doctors. Following safety rules to protect yourself and others. Teaching new staff how to do tests correctly. Using new lab technology and learning new methods. Thank you for your attention.",
         "voice": "./audio/presentation1.mp3"
     },
     {
